@@ -1,0 +1,18 @@
+clusterID	annot	merged
+0	plasma cells	plasma cells
+1	NK_1	NK
+2	Tumor_1	Tumor
+3	TAM-M1	TAM-M1
+4	PMN-MDSC	PMN-MDSC
+5	CD4_1	CD4
+6	Tumor_2	Tumor
+7	TAM-M2	TAM-M2
+8	vessel	vessel
+9	undefined	undefined
+10	CD90	CD90
+11	Tumor_3	Tumor
+12	CD4_2	CD4
+13	Neutrophils_1	Neutrophils
+14	NK_2	NK
+15	Neutrophils_2	Neutrophils
+16	Neutrophils_3	Neutrophils

@@ -1,0 +1,31 @@
+MarkerName	Attribute1	Attribute2
+PanCK	Epithelial	Epithelial
+CD31	vasculature	Stroma
+CD90		Stroma
+CD34	vasculature	Stroma
+CD123		Epithelial
+CD45	lymphocytes	Innate immunity
+CD3	T cells	Adaptive immunity
+CD4	T helper cells	Adaptive immunity
+FoxP3	Regulatory T cells	
+CD25	Regulatory T cells	
+CD8	cytotoxic T cells	Adaptive immunity
+CD279		
+CD69	Activated/Exhausted T cells	Adaptive immunity
+CD19	B cells	Adaptive immunity
+CD38	B cells	Adaptive immunity
+CD45Ra	Central and effector memory T cells	
+CD56	NK cells	Stroma
+CCR7	Central and effector memory T cells	
+CD33	Myeloid cells	
+CD11b	Myeloid cells	Innate immunity
+CD14	Monocytes/Macrophages	
+CD16	NK cells	Innate immunity
+HLA.DR	MHCII	Innate immunity
+CD163	macrophages	Innate immunity
+CD68	macrophages	Innate immunity
+CD15	granulocytes	Innate immunity
+CD66b		Epithelial
+LOX1		
+PDL1	checkpoint	
+IL4Ra		
