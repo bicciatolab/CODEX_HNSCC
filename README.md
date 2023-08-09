@@ -51,7 +51,7 @@ This directory structure can be easily customized in the "main settings" and "su
  ```
   Project directory
    |_ results
-   		|_sample.name
+   	  |_sample.name
 
  ```
  
