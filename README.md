@@ -3,8 +3,8 @@ R scripts accompanying our manuscript "The tumor immune microenvironment archite
 
 # Table of Contents
 
-- [Introduction](https://github.com/bicciatolab/CODEX_HNSCC#Introduction)
-- [System requirements](https://github.com/bicciatolab/CODEX_HNSCC#System-requirements)
+- [Introduction](https://github.com/bicciatolab/CODEX_HNSCC#introduction)
+- [System requirements](https://github.com/bicciatolab/CODEX_HNSCC#system-requirements)
 - [Scripts](https://github.com/bicciatolab/CODEX_HNSCC#scripts)
 
 ## Introduction
@@ -19,7 +19,7 @@ Key features of these scripts include:
 2. Neighborhood identification
 3. Quantification of pairwise cell-cell contacts
 
-Single sample raw data and the single-cell data table of clustered, annotated cell types with metadata can be downloaded from [Mendeley](https://data.mendeley.com/datasets/t2yvtwnjx7/1).
+Single sample raw data and the single-cell data table of clustered, annotated cell types with metadata can be downloaded from [Mendeley](https://data.mendeley.com/datasets/t2yvtwnjx7).
 
 #### Contact:
 
