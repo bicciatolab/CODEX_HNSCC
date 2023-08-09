@@ -23,7 +23,7 @@ Single sample raw data and the single-cell data table of clustered, annotated ce
 
 #### Contact:
 
-silvio.bicciato@unimore.it
+silvio.bicciato@unimore.it, pserafini@miami.edu
 
 #### Citation:
 
