@@ -38,7 +38,6 @@ All scripts require a project directory (e.g., "HNSCC") with an embedded "data" 
 ```
   Project directory
    |_ data
-
 ```
 This directory structure can be easily tailored within the "main settings" and "sub-directory" segments of each script.
 
@@ -53,7 +52,6 @@ For cell phenotype identification, the `01_singleSample_analysis.R` script initi
   Project directory
    |_ results
     |_sample.name
-
  ```
  
 4. `03_Neighborhood_Identification.R`: this script detects cellular neighborhoods (CNs), referring to regions characterized by a distinctive local composition of cell phenotypes, as demonstrated in the work by _Schürch CM, Bhate SS, Barlow GL, Phillips DJ, Noti L, Zlobec I, et al. Coordinated Cellular Neighborhoods Orchestrate Antitumoral Immunity at the Colorectal Cancer Invasive Front. Cell 2020;182:1341-59.e19_. For each cell within any sample, the script identifies a window comprising the W nearest neighboring cells, inclusive of the central cell. This operation is executed by the `nn2` function from the R package `RANN` (version 2.6.1). By employing a k-dimensional tree, the `nn2` function identifies the specified number of close neighbors (W) for every point defined by the X and Y coordinates in the input dataset. Subsequently, these windows are grouped based on their composition in relation to the cell types earlier identified through graph-based clustering and supervised annotation. More specifically, each window is transformed into a vector containing the occurrence frequency of each cell type among the W neighbors. Following this, the windows are subjected to clustering using the `MiniBatchKmeans` function from the `ClusterR` package (version 1.2.9), which implements the Mini-batch K-means clustering algorithm with a designated value of K. Finally, each cell is allocated to the CN of its surrounding window employing the `predict_MBatchKMeans` function from the `ClusterR` package.
